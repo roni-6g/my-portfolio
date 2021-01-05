@@ -6,6 +6,7 @@ body {
 .portfolio-header {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 }
 
 .header-left {
@@ -16,7 +17,7 @@ body {
 
 }
 
-.header-left h1 {
+h1 {
     font-size: 50px;
 }
 
@@ -33,7 +34,7 @@ body {
     width: 100%;
 }
 
-.header-left a {
+.btn {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
@@ -41,4 +42,29 @@ body {
     background-image: linear-gradient(90deg, #FF9873, tomato);
     padding: 10px 25px;
     border-radius: 10px;
+    display: inline-block;
+}
+
+.dream-area-right {
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.dream-area-right img {
+    width: 100%;
+}
+
+
+.dream-area-left {
+  overflow: hidden;
+  margin-right: 5%;
+  padding-right: 2%;
+}
+
+.dream-area {
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 500px;
 }
